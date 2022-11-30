@@ -1,0 +1,36 @@
+.fondo {
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 75px 30px 112px;
+    align-items: center;
+}
+
+.logo-texto {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+.btn {
+    /* BACKGROUND */
+    background: #ffffff;
+    border-radius: 100px;
+    border: 2px solid #ebeaed;
+    /* TEXT */
+    font-family: "DM Sans", sans-serif;
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    padding: 9px 30px;
+}
+
+/* media screen mobile */
+@media screen and (max-width: 768px) {
+    .fondo{
+        padding: 29px 27px;
+    }
+}
